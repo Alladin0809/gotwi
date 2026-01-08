@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/tweet/managetweet"
-	"github.com/michimani/gotwi/tweet/managetweet/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/tweet/managetweet"
+	"github.com/Alladin0809/gotwi/tweet/managetweet/types"
 )
 
 // SimpleTweet posts a tweet with only text, and return posted tweet ID.

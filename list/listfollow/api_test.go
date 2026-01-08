@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/internal/util"
-	"github.com/michimani/gotwi/list/listfollow"
-	"github.com/michimani/gotwi/list/listfollow/types"
-	"github.com/michimani/gotwi/resources"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/internal/util"
+	"github.com/Alladin0809/gotwi/list/listfollow"
+	"github.com/Alladin0809/gotwi/list/listfollow/types"
+	"github.com/Alladin0809/gotwi/resources"
 	"github.com/stretchr/testify/assert"
 )
 

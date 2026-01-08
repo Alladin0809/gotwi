@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/michimani/gotwi"
+	"github.com/Alladin0809/gotwi"
 )
 
 const (

@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/tweet/hidereply/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/tweet/hidereply/types"
 	"github.com/stretchr/testify/assert"
 )
 

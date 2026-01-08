@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/list/listfollow/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/list/listfollow/types"
 )
 
 const (

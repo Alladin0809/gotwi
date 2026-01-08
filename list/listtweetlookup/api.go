@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/list/listtweetlookup/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/list/listtweetlookup/types"
 )
 
 const listEndpoint = "https://api.x.com/2/lists/:id/tweets"

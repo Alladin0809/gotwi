@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/tweet/filteredstream/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/tweet/filteredstream/types"
 )
 
 const (

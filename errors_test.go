@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/internal/gotwierrors"
-	"github.com/michimani/gotwi/internal/util"
-	"github.com/michimani/gotwi/resources"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/internal/gotwierrors"
+	"github.com/Alladin0809/gotwi/internal/util"
+	"github.com/Alladin0809/gotwi/resources"
 	"github.com/stretchr/testify/assert"
 )
 

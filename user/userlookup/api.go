@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/user/userlookup/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/user/userlookup/types"
 )
 
 const (

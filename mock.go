@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/michimani/gotwi/internal/util"
-	"github.com/michimani/gotwi/resources"
+	"github.com/Alladin0809/gotwi/internal/util"
+	"github.com/Alladin0809/gotwi/resources"
 )
 
 type RoundTripFunc func(req *http.Request) *http.Response

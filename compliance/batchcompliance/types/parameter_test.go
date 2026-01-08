@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/compliance/batchcompliance/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/compliance/batchcompliance/types"
 	"github.com/stretchr/testify/assert"
 )
 

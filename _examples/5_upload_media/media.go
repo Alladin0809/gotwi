@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/media/upload"
-	"github.com/michimani/gotwi/media/upload/types"
-	"github.com/michimani/gotwi/tweet/managetweet"
-	mtTypes "github.com/michimani/gotwi/tweet/managetweet/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/media/upload"
+	"github.com/Alladin0809/gotwi/media/upload/types"
+	"github.com/Alladin0809/gotwi/tweet/managetweet"
+	mtTypes "github.com/Alladin0809/gotwi/tweet/managetweet/types"
 )
 
 func Initialize(c *gotwi.Client, p *types.InitializeInput) (*types.InitializeOutput, error) {

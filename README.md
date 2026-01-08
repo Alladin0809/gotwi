@@ -1,9 +1,9 @@
 gotwi
 ===
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/michimani/gotwi.svg)](https://pkg.go.dev/github.com/michimani/gotwi)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Alladin0809/gotwi.svg)](https://pkg.go.dev/github.com/Alladin0809/gotwi)
 [![Twitter API v2](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2)](https://developer.twitter.com/en/docs/twitter-api)
-[![codecov](https://codecov.io/gh/michimani/gotwi/branch/main/graph/badge.svg?token=NA873TE6RV)](https://codecov.io/gh/michimani/gotwi)
+[![codecov](https://codecov.io/gh/Alladin0809/gotwi/branch/main/graph/badge.svg?token=NA873TE6RV)](https://codecov.io/gh/Alladin0809/gotwi)
 
 This is a library for using the Twitter API v2 in the Go language. (It is still under development).
 
@@ -112,10 +112,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/user/userlookup"
-	"github.com/michimani/gotwi/user/userlookup/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/fields"
+	"github.com/Alladin0809/gotwi/user/userlookup"
+	"github.com/Alladin0809/gotwi/user/userlookup/types"
 )
 
 func main() {
@@ -169,7 +169,7 @@ You will get the output like following.
 
 ```
 ID:           581780917
-Name:         michimani Lv.873
+Name:         Alladin0809 Lv.873
 Username:     michimani210
 CreatedAt:    2012-05-16 12:07:04 +0000 UTC
 PinnedTweet:  OpenAI API の Function Calling を使って自然言語で AWS リソースを作成してみる
@@ -184,9 +184,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/tweet/managetweet"
-	"github.com/michimani/gotwi/tweet/managetweet/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/tweet/managetweet"
+	"github.com/Alladin0809/gotwi/tweet/managetweet/types"
 )
 
 func main() {
@@ -250,10 +250,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/michimani/gotwi"
-	"github.com/michimani/gotwi/fields"
-	"github.com/michimani/gotwi/user/userlookup"
-	"github.com/michimani/gotwi/user/userlookup/types"
+	"github.com/Alladin0809/gotwi"
+	"github.com/Alladin0809/gotwi/fields"
+	"github.com/Alladin0809/gotwi/user/userlookup"
+	"github.com/Alladin0809/gotwi/user/userlookup/types"
 )
 
 func main() {
@@ -304,7 +304,7 @@ You will get the output like following.
 
 ```
 ID:           581780917
-Name:         michimani Lv.861
+Name:         Alladin0809 Lv.861
 Username:     michimani210
 CreatedAt:    2012-05-16 12:07:04 +0000 UTC
 PinnedTweet:  真偽をハッキリしたい西城秀樹「ブーリアン、ブーリアン」
@@ -369,12 +369,12 @@ if err != nil {
 
 ## More examples
 
-See [_examples](https://github.com/michimani/gotwi/tree/main/_examples) directory.
+See [_examples](https://github.com/Alladin0809/gotwi/tree/main/_examples) directory.
 
 ## Contributors
 
-<a href="https://github.com/michimani/gotwi/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=michimani/gotwi" />
+<a href="https://github.com/Alladin0809/gotwi/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Alladin0809/gotwi" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
@@ -382,7 +382,7 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 # Licence
 
-[MIT](https://github.com/michimani/gotwi/blob/main/LICENCE)
+[MIT](https://github.com/Alladin0809/gotwi/blob/main/LICENCE)
 
 # Author
 
