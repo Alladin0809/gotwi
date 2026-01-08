@@ -9,11 +9,11 @@ import (
 )
 
 const (
-	getEndpoint              = "https://api.twitter.com/2/spaces/:id"
-	listEndpoint             = "https://api.twitter.com/2/spaces"
-	listByCreatorIDsEndpoint = "https://api.twitter.com/2/spaces/by/creator_ids"
-	listBuyersEndpoint       = "https://api.twitter.com/2/spaces/:id/buyers"
-	listTweetsEndpoint       = "https://api.twitter.com/2/spaces/:id/tweets"
+	getEndpoint              = "https://api.x.com/2/spaces/:id"
+	listEndpoint             = "https://api.x.com/2/spaces"
+	listByCreatorIDsEndpoint = "https://api.x.com/2/spaces/by/creator_ids"
+	listBuyersEndpoint       = "https://api.x.com/2/spaces/:id/buyers"
+	listTweetsEndpoint       = "https://api.x.com/2/spaces/:id/tweets"
 )
 
 // Returns a variety of information about a single Space specified by the requested ID.

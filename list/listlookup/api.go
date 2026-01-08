@@ -9,8 +9,8 @@ import (
 )
 
 const (
-	getEndpoint       = "https://api.twitter.com/2/lists/:id"
-	listOwnedEndpoint = "https://api.twitter.com/2/users/:id/owned_lists"
+	getEndpoint       = "https://api.x.com/2/lists/:id"
+	listOwnedEndpoint = "https://api.x.com/2/users/:id/owned_lists"
 )
 
 // Returns the details of a specified List.

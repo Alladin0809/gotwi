@@ -9,10 +9,10 @@ import (
 )
 
 const (
-	listFollowingsEndpoint  = "https://api.twitter.com/2/users/:id/following"
-	listFollowersEndpoint   = "https://api.twitter.com/2/users/:id/followers"
-	createFollowingEndpoint = "https://api.twitter.com/2/users/:id/following"
-	deleteFollowingEndpoint = "https://api.twitter.com/2/users/:source_user_id/following/:target_user_id"
+	listFollowingsEndpoint  = "https://api.x.com/2/users/:id/following"
+	listFollowersEndpoint   = "https://api.x.com/2/users/:id/followers"
+	createFollowingEndpoint = "https://api.x.com/2/users/:id/following"
+	deleteFollowingEndpoint = "https://api.x.com/2/users/:source_user_id/following/:target_user_id"
 )
 
 // Returns a list of users the specified user ID is following.

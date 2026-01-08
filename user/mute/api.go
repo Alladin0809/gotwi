@@ -9,9 +9,9 @@ import (
 )
 
 const (
-	listEndpoint   = "https://api.twitter.com/2/users/:id/muting"
-	createEndpoint = "https://api.twitter.com/2/users/:id/muting"
-	deleteEndpoint = "https://api.twitter.com/2/users/:source_user_id/muting/:target_user_id"
+	listEndpoint   = "https://api.x.com/2/users/:id/muting"
+	createEndpoint = "https://api.x.com/2/users/:id/muting"
+	deleteEndpoint = "https://api.x.com/2/users/:source_user_id/muting/:target_user_id"
 )
 
 // Returns a list of users who are muted by the specified user ID.

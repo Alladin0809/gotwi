@@ -9,10 +9,10 @@ import (
 )
 
 const (
-	listMembershipsEndpoint = "https://api.twitter.com/2/users/:id/list_memberships"
-	listEndpoint            = "https://api.twitter.com/2/lists/:id/members"
-	createEndpoint          = "https://api.twitter.com/2/lists/:id/members"
-	deleteEndpoint          = "https://api.twitter.com/2/lists/:id/members/:user_id"
+	listMembershipsEndpoint = "https://api.x.com/2/users/:id/list_memberships"
+	listEndpoint            = "https://api.x.com/2/lists/:id/members"
+	createEndpoint          = "https://api.x.com/2/lists/:id/members"
+	deleteEndpoint          = "https://api.x.com/2/lists/:id/members/:user_id"
 )
 
 // Returns all Lists a specified user is a member of.

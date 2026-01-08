@@ -49,7 +49,7 @@ This is a simple web site to generate access token with PKCE for Twitter App. Th
     
     ```bash
     curl -u ${CLIENT_ID}:${CLIENT_SECRET} \
-    -X POST 'https://api.twitter.com/2/oauth2/token' \
+    -X POST 'https://api.x.com/2/oauth2/token' \
     --header 'Content-Type: application/x-www-form-urlencoded' \
     --data-urlencode "refresh_token=${REF_TOKEN}" \
     --data-urlencode 'grant_type=refresh_token' \

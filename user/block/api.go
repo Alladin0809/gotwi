@@ -9,9 +9,9 @@ import (
 )
 
 const (
-	listEndpoint   = "https://api.twitter.com/2/users/:id/blocking"
-	createEndpoint = "https://api.twitter.com/2/users/:id/blocking"
-	deleteEndpoint = "https://api.twitter.com/2/users/:source_user_id/blocking/:target_user_id"
+	listEndpoint   = "https://api.x.com/2/users/:id/blocking"
+	createEndpoint = "https://api.x.com/2/users/:id/blocking"
+	deleteEndpoint = "https://api.x.com/2/users/:source_user_id/blocking/:target_user_id"
 )
 
 // Returns a list of users who are blocked by the specified user ID.

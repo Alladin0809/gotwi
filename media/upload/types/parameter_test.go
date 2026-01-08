@@ -115,8 +115,8 @@ func Test_InitializeInput_ResolveEndpoint(t *testing.T) {
 	}{
 		{
 			name:         "normal",
-			endpointBase: "https://api.twitter.com/2/media/upload",
-			expect:       "https://api.twitter.com/2/media/upload",
+			endpointBase: "https://api.x.com/2/media/upload",
+			expect:       "https://api.x.com/2/media/upload",
 		},
 		{
 			name:         "empty",
@@ -312,15 +312,15 @@ func Test_AppendInput_ResolveEndpoint(t *testing.T) {
 	}{
 		{
 			name:         "normal",
-			endpointBase: "https://api.twitter.com/2/media/upload/:mediaID",
+			endpointBase: "https://api.x.com/2/media/upload/:mediaID",
 			mediaID:      "test-media-id",
-			expect:       "https://api.twitter.com/2/media/upload/test-media-id",
+			expect:       "https://api.x.com/2/media/upload/test-media-id",
 		},
 		{
 			name:         "empty mediaID",
-			endpointBase: "https://api.twitter.com/2/media/upload/:mediaID",
+			endpointBase: "https://api.x.com/2/media/upload/:mediaID",
 			mediaID:      "",
-			expect:       "https://api.twitter.com/2/media/upload/",
+			expect:       "https://api.x.com/2/media/upload/",
 		},
 		{
 			name:         "empty endpoint",
@@ -430,15 +430,15 @@ func Test_FinalizeInput_ResolveEndpoint(t *testing.T) {
 	}{
 		{
 			name:         "normal",
-			endpointBase: "https://api.twitter.com/2/media/upload/:mediaID",
+			endpointBase: "https://api.x.com/2/media/upload/:mediaID",
 			mediaID:      "test-media-id",
-			expect:       "https://api.twitter.com/2/media/upload/test-media-id",
+			expect:       "https://api.x.com/2/media/upload/test-media-id",
 		},
 		{
 			name:         "empty mediaID",
-			endpointBase: "https://api.twitter.com/2/media/upload/:mediaID",
+			endpointBase: "https://api.x.com/2/media/upload/:mediaID",
 			mediaID:      "",
-			expect:       "https://api.twitter.com/2/media/upload/",
+			expect:       "https://api.x.com/2/media/upload/",
 		},
 		{
 			name:         "empty endpoint",

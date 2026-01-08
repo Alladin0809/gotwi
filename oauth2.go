@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-const OAuth2TokenEndpoint = "https://api.twitter.com/oauth2/token"
+const OAuth2TokenEndpoint = "https://api.x.com/oauth2/token"
 
 type OAuth2TokenResponse struct {
 	TokenType   string `json:"token_type"`

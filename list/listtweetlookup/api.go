@@ -8,7 +8,7 @@ import (
 	"github.com/michimani/gotwi/list/listtweetlookup/types"
 )
 
-const listEndpoint = "https://api.twitter.com/2/lists/:id/tweets"
+const listEndpoint = "https://api.x.com/2/lists/:id/tweets"
 
 // Returns a list of Tweets from the specified List.
 // https://developer.twitter.com/en/docs/twitter-api/lists/list-tweets/api-reference/get-lists-id-tweets

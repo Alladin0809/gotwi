@@ -9,9 +9,9 @@ import (
 )
 
 const (
-	listJobsEndpoint  = "https://api.twitter.com/2/compliance/jobs"
-	GetJobEndpoint    = "https://api.twitter.com/2/compliance/jobs/:id"
-	createJobEndpoint = "https://api.twitter.com/2/compliance/jobs"
+	listJobsEndpoint  = "https://api.x.com/2/compliance/jobs"
+	GetJobEndpoint    = "https://api.x.com/2/compliance/jobs/:id"
+	createJobEndpoint = "https://api.x.com/2/compliance/jobs"
 )
 
 // Returns a list of recent compliance jobs.

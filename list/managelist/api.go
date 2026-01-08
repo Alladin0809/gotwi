@@ -9,9 +9,9 @@ import (
 )
 
 const (
-	createEndpoint = "https://api.twitter.com/2/lists"
-	updateEndpoint = "https://api.twitter.com/2/lists/:id"
-	deleteEndpoint = "https://api.twitter.com/2/lists/:id"
+	createEndpoint = "https://api.x.com/2/lists"
+	updateEndpoint = "https://api.x.com/2/lists/:id"
+	deleteEndpoint = "https://api.x.com/2/lists/:id"
 )
 
 // Enables the authenticated user to create a List.

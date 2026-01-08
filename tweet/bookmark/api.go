@@ -8,9 +8,9 @@ import (
 )
 
 const (
-	listEndpoint   = "https://api.twitter.com/2/users/:id/bookmarks"
-	createEndpoint = "https://api.twitter.com/2/users/:id/bookmarks"
-	deleteEndpoint = "https://api.twitter.com/2/users/:id/bookmarks/:tweet_id"
+	listEndpoint   = "https://api.x.com/2/users/:id/bookmarks"
+	createEndpoint = "https://api.x.com/2/users/:id/bookmarks"
+	deleteEndpoint = "https://api.x.com/2/users/:id/bookmarks/:tweet_id"
 )
 
 // Allows you to get information about a authenticated user’s 800 most recent bookmarked Tweets
